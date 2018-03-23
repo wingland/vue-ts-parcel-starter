@@ -3,8 +3,10 @@
       "module": "es2015",
       "noImplicitAny": true,
       "removeComments": true,
+      "moduleResolution": "node",
       "preserveConstEnums": true,
       "sourceMap": true,
+      "strict": true,
       "target": "es5",
       "experimentalDecorators": true
   },

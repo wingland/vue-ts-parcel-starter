@@ -1,10 +1,8 @@
-import Vue from 'vue'
-import App from './App.vue'
+import Vue from 'vue';
+import App from './App.vue';
+import { User } from './user';
 
-
-
-
-new Vue({
+const app = new Vue({
   el: '#app',
-  render: (h:Function) => h(App)
-})
+  render: h => h(App),
+});
